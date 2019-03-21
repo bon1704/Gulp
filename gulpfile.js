@@ -89,7 +89,7 @@ const buildJs = () => {
         .src([
             pathJs.nodeJq,
             pathJs.nodeBs,
-            pathJS.nodePop
+            pathJs.nodePop
         ])
         .pipe(plumber())
         .pipe(newer(pathJs.lib))
